@@ -23,7 +23,10 @@ h1 {
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
 }
-
+form li {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 /* Diagnostic CSS */
 /**
