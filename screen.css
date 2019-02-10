@@ -23,14 +23,28 @@ h1 {
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
 }
+/* Forms */
+input,
+label {
+  display: block;
+}
+/*for colons:*/
+label::after {
+  content: ":";
+}
+
 form li {
   display: flex;
   flex-flow: row wrap;
+}
+input {
+  flex: 3 0 auto;
 }
 label {
   flex: 1 0 auto;
   width: 33.333333333%
 }
+
 
 /* Diagnostic CSS */
 /**
