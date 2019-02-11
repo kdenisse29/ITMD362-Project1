@@ -15,7 +15,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 /*basic baseline grid*/
 html {
-  background: #222;
+  background: rgba(93, 126, 152);
   color: #EEE;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -66,29 +66,32 @@ label {
 /*Name*/
 input[type="text"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
-  background-color: rgba(67,176,183,8.0);
+  background-color: rgba(190, 206, 218);
 }
 
 input[type="text"]:focus {
-  background-color: rgba(67,176,183,0.2);
+  background-color: rgba(137, 163, 183);
+  color:#EEE;
 }
 /* Phone Number */
 input[type="tel"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
-  background-color: rgba(67,176,183,8.0);
+  background-color: rgba(190, 206, 218);
 }
 
 input[type="text"]:focus {
-  background-color: rgba(67,176,183,0.2);
+  background-color: rgba(137, 163, 183);
+  color:#EEE;
 }
 /*Email Address*/
 input[type="email"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
-  background-color: rgba(67,176,183,8.0);
+  background-color: rgba(190, 206, 218);
 }
 
-input[type="text"]:focus {
-  background-color: rgba(67,176,183,0.2);
+input[type="email"]:focus {
+  background-color: rgba(137, 163, 183);
+  color:#EEE;
 }
 
 /* Submit */
@@ -97,6 +100,7 @@ input[type="submit"] {
 }
 input[type="submit"]:disabled {
   background-color: rgba(67,176,183,0.2);
+  color:#EEE;
 }
 /* Diagnostic CSS */
 /**
