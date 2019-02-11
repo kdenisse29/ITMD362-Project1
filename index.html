@@ -8,17 +8,25 @@
 </head>
 <body class="g">
   <main id="content">
-    <h1> HTML Forms</h1>
+    <h1> Create a New Account</h1>
   	<form actions="#null" methods="get">
       <ol>
-        <li>
-          <label for="email"> Email Address</label>
-          <input type="email" name="email" id="email" placeholder="you@example.com"/>
-        </li>
+        <!--Name -->
         <li>
           <label for="name">Name</label>
           <input type="text" name="name" id="name" />
         </li>
+        <!--Phone Number -->
+        <li>
+          <label for="telephone">Phone Number</label>
+          <input type="tel" name="telephone" id="telephone" placeholder="1234567890" />
+        </li>
+        <!--Emaik Address -->
+        <li>
+          <label for="email"> Email Address</label>
+          <input type="email" name="email" id="email" placeholder="you@example.com"/>
+        </li>
+        <!-- Submit-->
         <li>
           <label for="submit">Submit</label>
           <input type="submit" name"submit" id="submit" value="Sign Up" />
