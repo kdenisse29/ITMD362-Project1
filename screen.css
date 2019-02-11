@@ -15,6 +15,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 /*basic baseline grid*/
 html {
+  background: #222;
+  color: #EEE;
+  font-family:Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
@@ -23,10 +26,17 @@ h1 {
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
 }
+p{
+  display:;
+  font-size:11px; 
+  line-height:16.5px;
+  padding-bottom: 22px;
+}
 /* Forms */
 input,
 label {
   display: block;
+  box-sizing:border-box;
 }
 /*for colons:*/
 label::after {
