@@ -79,7 +79,7 @@ input[type="tel"] {
   background-color: rgba(190, 206, 218);
 }
 
-input[type="text"]:focus {
+input[type="tel"]:focus {
   background-color: rgba(137, 163, 183);
   color:#EEE;
 }
@@ -96,11 +96,11 @@ input[type="email"]:focus {
 
 /* Submit */
 input[type="submit"] {
-  background-color: rgba(67,176,183,8.0);
+  background-color: rgba(29, 67, 97);
+  color:#EEE;
 }
 input[type="submit"]:disabled {
-  background-color: rgba(67,176,183,0.2);
-  color:#EEE;
+  background-color: rgba(29, 67, 97);
 }
 /* Diagnostic CSS */
 /**
