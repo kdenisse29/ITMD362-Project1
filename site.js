@@ -48,10 +48,3 @@ var submit_data = document.querySelector('#submit');
         // This will re-disable the submit button if the input changes to an invalid state
         signup_submit.setAttribute('disabled','disabled');
       }
-    });
-
-  // End of DOMContentLoaded
-  });
-
-// End of IIFE
-}());
