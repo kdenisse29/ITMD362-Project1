@@ -41,7 +41,6 @@ input,
 label {
   display: block;
   margin: auto;
-  position: center;
 }
 #header{
   font-size: 1.60em;
@@ -56,13 +55,13 @@ label {
 
 input {
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
-  margin: 0;
+  margin: auto;
   font-size: inherit;
   line-height: inherit;
   border: 0;
   outline: 0;
   width: 50%;
-  flex: 1 0 auto;
+
 }
 
 /*Name*/
@@ -104,14 +103,17 @@ input[type="email"]:focus {
 input[type="submit"] {
   background-color: rgba(29, 67, 97,0.5);
   color:white;
+  position: center;
 }
 input[type="submit"]:focus{
-  background-color: rgba(29, 67, 97);
+  background-color: rgba(29, 67, 97,0.89);
 }
 #submit{
-  border:none;
-  width: 30%;
-  position: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin:3em auto;
+  border:0.1em;
+  width: 25%;
   font-family:sans-serif;
   color: white;
 }
