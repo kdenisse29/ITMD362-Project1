@@ -22,7 +22,7 @@ html {
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
- h1 {
+h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
@@ -30,8 +30,8 @@ html {
   text-align: center;
 }
 p{
-  font-size:18px; 
-  line-height:16.5px;
+  font-size:1.1em; 
+  line-height:1.5em;
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 /* Forms */
@@ -41,6 +41,8 @@ p{
   width:100%;
   margin:0 auto;
   position:relative;
+  padding:10px 0 5px 0;
+
 }
 input,
 label {
@@ -55,6 +57,7 @@ label {
 #footer p{
   font-size: 0.6em;
   text-align: center;
+  padding-top:1.2222222222em; 
 }
 /*for colons:*/
 label::after {
@@ -117,6 +120,13 @@ input[type="submit"] {
 }
 input[type="submit"]:disabled {
   background-color: rgba(29, 67, 97);
+}
+#submit{
+  border:none;
+  width: 30%;
+  
+  font-family:sans-serif;
+  color: white;
 }
 /* Diagnostic CSS */
 /**
