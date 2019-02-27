@@ -78,17 +78,7 @@ input[type="text"]:focus{
   background-color: rgba(137, 163, 183,0.2);
   color:white;
 }
-/* Phone Number */
-input[type="tel"] {
-  margin-bottom: 0.611em; /* 11 / 18 = .611 */
-  background-color: rgba(190, 206, 218);
-  border-bottom:2px solid grey;
-  text-align: center;
-}
-input[type="tel"]:focus {
-  background-color: rgba(137, 163, 183,0.2);
-  color:white;
-}
+
 /*Email Address*/
 input[type="email"] {
   background-color: rgba(190, 206, 218);
