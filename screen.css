@@ -15,7 +15,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 /*basic baseline grid*/
 html {
-  background: rgba(93, 126, 152);
+  background-color: rgba(190, 206, 218);
   color: #EEE;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -36,13 +36,12 @@ p{
 }
 /* Forms */
 
-#submit{
-  text-align: center;
-}
+
 input,
 label {
   display: block;
-  box-sizing:border-box;
+  margin: auto;
+  position: center;
 }
 #header{
   font-size: 1.60em;
@@ -70,78 +69,49 @@ input {
 input[type="text"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(190, 206, 218);
+  border-bottom:2px solid white;
+  text-align: center;
 }
-.box[type=text]:{border-bottom:2px solid white;}
 
 input[type="text"]:focus{
-  background-color: rgba(137, 163, 183);
-  color:#EEE;
+  background-color: rgba(137, 163, 183,0.2);
+  color:white;
 }
 /* Phone Number */
 input[type="tel"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(190, 206, 218);
+  border-bottom:2px solid white;
+  text-align: center;
 }
-.box2[type=tel]:focus{border-bottom:2px solid white;}
-
 input[type="tel"]:focus {
-  background-color: rgba(137, 163, 183);
-  color:#EEE;
+  background-color: rgba(137, 163, 183,0.2);
+  color:white;
 }
 /*Email Address*/
 input[type="email"] {
-  margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(190, 206, 218);
+  border-bottom:2px solid white;
+  text-align: center;
 }
-.box3[type=email]:focus{border-bottom:2px solid white;}
 
 input[type="email"]:focus {
-  background-color: rgba(137, 163, 183);
-  color:#EEE;
+  background-color: rgba(137, 163, 183,0.2);
+  color:white;
 }
 
 /* Submit */
 input[type="submit"] {
-  background-color: rgba(29, 67, 97);
-  color:#EEE;
+  background-color: rgba(29, 67, 97,0.5);
+  color:white;
 }
-input[type="submit"]:disabled {
+input[type="submit"]:focus{
   background-color: rgba(29, 67, 97);
 }
 #submit{
   border:none;
   width: 30%;
-position: center;
+  position: center;
   font-family:sans-serif;
   color: white;
-}
-
-/* Diagnostic CSS */
-/**
-* A quick baseline grid overlay using css+svg.
-* Inspired by [Basehold.it](https://basehold.it/).
-* @author leshido
-*/
-
-body.g {
-  position: relative;
-}
-
-body.g::after {
-  /* Change the `height` parameter here to match your base line-height. */
-  background: url('data:image/svg+xml;utf8,<svg height="22" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
-
-  content: "";
-  display: block;
-  pointer-events: none;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 9999;
-  position: absolute;
-}
-
-body.g:active::after {
-  display: none;
 }
