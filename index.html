@@ -6,37 +6,44 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
   <link rel="stylesheet" href="screen.css"/> 
 </head>
-<body >
-  <main id="content">
-    <h1> Sign up for Alerts</h1>
-    <!-- Promo text -->
-    <p>
+<body class = "container">
+  <main>
+    <header id="header">
+      <h1> Sign up for Alerts</h1>
+    </header>
+      <!-- Promo text -->
+    <p class="txtcontent">
       Enter your information below to sign up for our mailing list, and recieve more newsletters and other promotions directly to your phone and email address.
     </p>
-  	<form id="mailinglist" action="#null" method="get">
-      <ol>
+    <form id="mailinglist" action="#null" method="get">
+      <fieldset>
+        <ol>
         <!--Name -->
-        <li>
-          <input type="text" name="name" id="name" placeholder = "Your name" />
-        </li>
+          <li>
+            <input type="text" name="name" id="name" placeholder = "Your name" />
+          </li>
         <!--Phone Number -->
-        <li>
-          <input type="tel" name="telephone" id="telephone" placeholder="1234567890" />
-        </li>
+          <li>
+            <input type="tel" name="telephone" id="telephone" placeholder="Your Phone Number " />
+          </li>
         <!--Emaik Address -->
-        <li>
-          <input type="email" name="email" id="email" placeholder="Your email address "/>
-        </li>
+          <li>
+            <input type="email" name="email" id="email" placeholder="Your Email address "/>
+          </li>
         <!-- Submit-->
-        <li>
-          <input type="submit" name="submit" id="submit" value="Sign Up" />
-        </li>
-      </ol>
-      <p>
+          <li>
+            <input type="submit" name="submit" id="submit" value="Sign Up" />
+          </li>
+        </ol>
+      </fieldset>
+      <p class="last">
         Text msg rates may apply.
       </p>
   	</form>
   </main>
-<script src="site.js"></script>
+  <script src="site.js"></script>
+  <footer id="footer">
+    <p> Website by Kelly Perez </p>
+  </footer>
 </body>
 </html>

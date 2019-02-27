@@ -22,11 +22,12 @@ html {
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
-h1 {
+ h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
   padding-bottom: 0.667em; /* 12 / 18 =0.667 */
+  text-align: center;
 }
 p{
   font-size:18px; 
@@ -34,10 +35,26 @@ p{
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 /* Forms */
+.container {
+  background-color: rgba(0, 0, 0, 0.2);
+  max-width:400px;
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
 input,
 label {
   display: block;
   box-sizing:border-box;
+}
+#header{
+  font-size: 1.60em;
+  line-height: 1.60em;
+  text-align: center;
+}
+#footer p{
+  font-size: 0.6em;
+  text-align: center;
 }
 /*for colons:*/
 label::after {
