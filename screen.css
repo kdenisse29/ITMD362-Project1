@@ -16,7 +16,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*basic baseline grid*/
 html {
   background-color: rgba(190, 206, 218);
-  color: #EEE;
+  color: grey;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
@@ -28,13 +28,15 @@ h1 {
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
   padding-bottom: 0.667em; /* 12 / 18 =0.667 */
   text-align: center;
+
 }
 p{
   font-size:1.1em; 
   line-height:1.5em;
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  color:white;
 }
-/* Forms */
+/* gen */
 
 
 input,
@@ -48,7 +50,7 @@ label {
   text-align: center;
 }
 #footer p{
-  font-size: 0.6em;
+  font-size: 0.8em;
   text-align: center;
   padding-top:1.2222222222em; 
 }
@@ -60,10 +62,10 @@ input {
   line-height: inherit;
   border: 0;
   outline: 0;
-  width: 50%;
+  width: 60%;
 
 }
-
+/*froms*/
 /*Name*/
 input[type="text"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
@@ -111,9 +113,9 @@ input[type="submit"]:focus{
 #submit{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  margin:3em auto;
+  margin:2.5em auto;
   border:0.1em;
-  width: 25%;
+  width: 35%;
   font-family:sans-serif;
   color: white;
 }
