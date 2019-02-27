@@ -54,15 +54,7 @@ label {
   text-align: center;
   padding-top:1.2222222222em; 
 }
-/*for colons:*/
-label::after {
-  content: ":";
-}
 
-form li {
-  display: flex;
-  flex-flow: row wrap;
-}
 input {
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   margin: 0;
@@ -70,18 +62,16 @@ input {
   line-height: inherit;
   border: 0;
   outline: 0;
-  width: 100%;
+  width: 50%;
   flex: 1 0 auto;
 }
-label {
-  flex: 1 0 auto;
-  width: 33.333333333%
-}
+
 /*Name*/
 input[type="text"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(190, 206, 218);
 }
+.box[type=text]:{border-bottom:2px solid white;}
 
 input[type="text"]:focus{
   background-color: rgba(137, 163, 183);
@@ -92,6 +82,7 @@ input[type="tel"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(190, 206, 218);
 }
+.box2[type=tel]:focus{border-bottom:2px solid white;}
 
 input[type="tel"]:focus {
   background-color: rgba(137, 163, 183);
@@ -102,6 +93,7 @@ input[type="email"] {
   margin-bottom: 0.611em; /* 11 / 18 = .611 */
   background-color: rgba(190, 206, 218);
 }
+.box3[type=email]:focus{border-bottom:2px solid white;}
 
 input[type="email"]:focus {
   background-color: rgba(137, 163, 183);
@@ -123,9 +115,6 @@ position: center;
   font-family:sans-serif;
   color: white;
 }
-.box[type=text]:focus{border-bottom:2px solid white;}
-.box2[type=tel]:focus{border-bottom:2px solid white;}
-.box3[type=email]:focus{border-bottom:2px solid white;}
 
 /* Diagnostic CSS */
 /**
