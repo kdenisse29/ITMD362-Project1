@@ -35,14 +35,9 @@ p{
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 /* Forms */
-.container {
-  background-color: rgba(0, 0, 0, 0.2);
-  max-width:400px;
-  width:100%;
-  margin:0 auto;
-  position:relative;
-  padding:10px 0 5px 0;
 
+#submit{
+  text-align: center;
 }
 input,
 label {
@@ -88,7 +83,7 @@ input[type="text"] {
   background-color: rgba(190, 206, 218);
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus{
   background-color: rgba(137, 163, 183);
   color:#EEE;
 }
@@ -124,10 +119,14 @@ input[type="submit"]:disabled {
 #submit{
   border:none;
   width: 30%;
-  
+position: center;
   font-family:sans-serif;
   color: white;
 }
+.box[type=text]:focus{border-bottom:2px solid white;}
+.box2[type=tel]:focus{border-bottom:2px solid white;}
+.box3[type=email]:focus{border-bottom:2px solid white;}
+
 /* Diagnostic CSS */
 /**
 * A quick baseline grid overlay using css+svg.
