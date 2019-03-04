@@ -38,7 +38,9 @@ p{
 }
 /* gen */
 
-
+.txtcontent{
+  text-align:center;
+}
 input,
 label {
   display: block;
