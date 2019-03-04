@@ -23,7 +23,7 @@ html {
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 h1 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:Daydreamer;
   font-size: 1.618em; /* 29.124 / 18 = 1.618 */
   line-height: 1.5107814861em; /* 44 / 29.124 = 1.5107814861 */
   padding-bottom: 0.667em; /* 12 / 18 =0.667 */
@@ -40,6 +40,10 @@ p{
 
 .txtcontent{
   text-align:center;
+}
+@font-face{
+  font-family:Daydreamer;
+  src:url("../fonts/Daydreamer.ttf");
 }
 input,
 label {
