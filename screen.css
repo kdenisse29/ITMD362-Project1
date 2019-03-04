@@ -23,7 +23,7 @@ html {
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 h1 {
-  font-family: 'daydreamer', Helvetica,sans-serif;
+  font-family: 'daydreamer', Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 2em; /* 29.124 / 18 = 1.618 */
@@ -55,17 +55,15 @@ src: url('font/Daydreamer.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 *
 input,
 label {
   display: block;
-  align-self: auto | center ;
+  align-self: auto;
   margin: auto;
   flex-basis:auto;
-
 }
 #header {
   font-size: 2.5em;
   line-height: 1.60em;
   text-align: center;
-  font-family: "daydreamer";
-  font-weight: 
+  font-family: "daydreamer"; 
 }
 
 #footer p{
@@ -114,7 +112,6 @@ input[type="email"]:focus {
 input[type="submit"] {
   background-color: rgba(29, 67, 97,0.5);
   color:white;
-  position: center;
 }
 input[type="submit"]:focus{
   background-color: rgba(29, 67, 97,0.89);
